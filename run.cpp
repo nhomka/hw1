@@ -8,6 +8,7 @@ using namespace std;
 int main() {
     Location goalLocation(5, 7);
     GameBoard board(goalLocation);
+    change change
     board.addTreasure(Location(8, 9));
     board.addTreasure(Location(-3, 6));
     board.addTreasure(Location(12, -1));
